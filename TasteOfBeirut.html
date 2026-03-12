@@ -649,6 +649,32 @@
     opacity: 0.9;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   }
+  @media (max-width: 768px) {
+  nav { padding: 16px 20px; flex-wrap: wrap; gap: 10px; }
+  .nav-links { gap: 16px; }
+  
+  .hero { grid-template-columns: 1fr; }
+  .hero-right { display: none; }
+  .hero-left { padding: 40px 24px; }
+  .hero h1 { font-size: 52px; }
+
+  section { padding: 60px 24px; }
+
+  .about { grid-template-columns: 1fr; gap: 40px; }
+  .about-visual { display: none; }
+
+  .menu-header { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .menu-grid { grid-template-columns: 1fr; }
+  .menu-item { padding: 24px; }
+
+  .testimonials-grid { grid-template-columns: 1fr; }
+
+  .reservation { grid-template-columns: 1fr; gap: 40px; }
+  .form-row { grid-template-columns: 1fr; }
+
+  footer { grid-template-columns: 1fr 1fr; gap: 30px; padding: 40px 24px; }
+  .footer-bottom { padding: 20px 24px; flex-direction: column; gap: 8px; text-align: center; }
+}
 
 </style>
 </head>
@@ -792,7 +818,7 @@
 
     <!-- MENU CARD 1 — copy this block to add more items -->
     <div class="menu-item">
-<img src="https://earthly-provisions.com/wp-content/uploads/2021/04/Grain-Free-Tabbouleh-Salad-11.jpg" alt="Lebanese Tabouli"width=150><!-- food emoji -->
+<img src="https://earthly-provisions.com/wp-content/uploads/2021/04/Grain-Free-Tabbouleh-Salad-11.jpg" alt="Lebanese Tabouli"style="width:100%; height:180px; object-fit:cover; margin-:16px;"><!-- food emoji -->
   <div class="menu-name">Lebanese Tabouli</div>
        <div class="menu-desc">A fresh and zesty Lebanese salad made with parsley, tomatoes, bulgur, mint, lemon juice, and olive oil.</div>
       <!-- short description of ingredients -->
@@ -801,7 +827,7 @@
 
     <!-- MENU CARD 2 -->
     <div class="menu-item">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDcjjEhXAo-bprfeTz9pLFc3CMvrrSTDlS5A&s.jpg" alt="Crab Salad"width=150>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDcjjEhXAo-bprfeTz9pLFc3CMvrrSTDlS5A&s.jpg" alt="Crab Salad"style="width:100%; height:180px; object-fit:cover; margin-:16px;">
       <div class="menu-name">Crab Salad</div>
       <div class="menu-desc">A light and creamy salad made with fresh crab meat, crisp vegetables, and a tangy dressing.</div>
       <div class="menu-price">$11</div>
@@ -809,7 +835,7 @@
 
     <!-- MENU CARD 3 -->
     <div class="menu-item">
-     <img src="https://www.dubairestaurantsguide.com/wp-content/uploads/2021/08/image-11-1170x0-c-center.png" alt="Lebanese Barbeque"width=200>
+     <img src="https://www.dubairestaurantsguide.com/wp-content/uploads/2021/08/image-11-1170x0-c-center.png" alt="Lebanese Barbeque"style="width:100%; height:180px; object-fit:cover; margin-:16px;">
       <div class="menu-name">Lebanese Barbeque</div>
       <div class="menu-desc">Grilled marinated meats and kebabs, full of traditional Lebanese flavors.</div>
       <div class="menu-price">$18</div>
@@ -817,7 +843,7 @@
 
     <!-- MENU CARD 4 -->
     <div class="menu-item">
-    <img src="https://plantbasedfolk.com/wp-content/uploads/2022/04/Warek-Enab.jpg" alt="Warak Enab"width=150>
+    <img src="https://plantbasedfolk.com/wp-content/uploads/2022/04/Warek-Enab.jpg" alt="Warak Enab"style="width:100%; height:180px; object-fit:cover; margin-:16px;">
       <div class="menu-name">Warak Enab</div>
       <div class="menu-desc">Delicate grape leaves stuffed with rice, herbs,tomato, and a hint of lemon.</div>
       <div class="menu-price">$1 per piece</div>
@@ -825,7 +851,7 @@
 
     <!-- MENU CARD 5 -->
     <div class="menu-item">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSuOc9gqFksrS2Q33Gqi2t_F5Niht1SUvHfg&s.jpg" alt="French Fries"width=170>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSuOc9gqFksrS2Q33Gqi2t_F5Niht1SUvHfg&s.jpg" alt="French Fries"style="width:100%; height:180px; object-fit:cover; margin-:16px;">
       <div class="menu-name">French Fries</div>
       <div class="menu-desc">Crispy golden fries, perfectly salted and served hot.</div>
       <div class="menu-price">$4 (Small) / $6 (Large)</div>
@@ -833,7 +859,7 @@
 
     <!-- MENU CARD 6 -->
     <div class="menu-item">
-    <img src="https://casalot-catering.de/cdn/shop/files/2B4C3375.jpg?v=1743676617&width=1500.jpg" alt="Kebbeh Labanieh"width=150>
+    <img src="https://casalot-catering.de/cdn/shop/files/2B4C3375.jpg?v=1743676617&width=1500.jpg" alt="Kebbeh Labanieh"style="width:100%; height:180px; object-fit:cover; margin-:16px;">
       <div class="menu-name">Kebbeh Labanieh</div>
       <div class="menu-desc">Soft meat and bulgur dumplings simmered in a creamy yogurt sauce, a classic Lebanese dish</div>
       <div class="menu-price">$23</div>
